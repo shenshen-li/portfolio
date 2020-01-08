@@ -1,0 +1,139 @@
+/*---------------------------global styles---------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	color: #343434;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-size: 50px;
+	line-height: 1;
+}
+
+h2{
+	font-size: 30px;
+}
+h1,h2{
+	font-family: 'Caveat', cursive;
+	margin: 0;
+	border: 0;
+}
+
+.content-wrap {
+	max-width: 800px;
+  	width: 85%;
+  	margin: 0 auto;
+  	padding: 60px 0;
+}
+
+a{
+	color: grey;
+	text-decoration: none
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+div{
+	border:1px solid transparent;
+}
+
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+/*-------------------------profile----------------------------*/
+header {
+	background: #2c2b3c;
+	color: #F7FFF7;
+	margin: 0;
+	text-align: center;
+}
+
+
+/*--------------------------projects---------------------------------*/
+.projects {
+	background: #FFF3E5;
+}
+.bth {
+	background: #f98272;
+	color: grey;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 4px;
+	display: inline-block;
+
+}
+.bth:hover{
+	background:#ffcc56;
+}
+
+.project-item {
+	overflow: hidden;
+}
+/*----------------------------------work experience--------------------------*/
+
+.work {
+	background: #DBE7DD;
+}
+
+/*--------------------------------------education------------------------------------*/
+.education {
+	background-image: url(joanna-kosinska-unsplash.jpg);
+	background-size: cover;
+	background-position: top right;
+  	padding-bottom: 50px;
+}
+
+/*---------------------------------------contact info---------------------------------*/
+footer {
+	background: #2c2b3c;
+	color: #F7FFF7;
+	text-align: center;
+}
+
+.contact-list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+
+}
+
+.contact-list a {
+  padding: 35px;
+  margin: 10px;
+  display: inline-block;
+  color: yellow;
+}
+
+.contact-list a:hover{
+	color: white;
+}
+
+/*------------------------------------------responsive-------------------------*/
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+ /* @media screen and (min-width:750px){
+  header, footer {
+    text-align: center;
+  }*/
