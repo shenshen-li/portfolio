@@ -46,6 +46,9 @@ a:hover{
 	color: black;
 }
 
+img{
+	width: 300px;
+}
 div{
 	border:1px solid transparent;
 }
@@ -137,3 +140,7 @@ footer {
   header, footer {
     text-align: center;
   }*/
+    .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
